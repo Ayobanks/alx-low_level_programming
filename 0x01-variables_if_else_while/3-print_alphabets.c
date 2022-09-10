@@ -1,11 +1,13 @@
 #include <stdio.h>
-/* main - print alpha
+/**
+ * main - print alpha
  *
  * Return: 0
  */
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 		putchar(ch);
