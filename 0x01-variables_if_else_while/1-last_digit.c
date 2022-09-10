@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**      
+/**
  * main - print if the last digit of n is greater than five or is zero
  *
  * Return: 0
- */                                                          
+ */                            
 int main(void)
 {
 		int n;
