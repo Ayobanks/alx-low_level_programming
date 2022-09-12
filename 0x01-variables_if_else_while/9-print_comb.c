@@ -1,23 +1,24 @@
 #include <stdio.h>
 /**
- * main - difficult
+ * main - prints with commas
  *
- * Return: 0
+ * Return: Always(Success);
  */
 int main(void)
 {
-	int cee;
+	int c;
 
-for (cee = '0' ; cee <= '9' ; cee++)
-{
-	putchar(cee);
-if (cee != '9')
-{
-	 putchar(',');
-	 putchar(' ');
-}
-}
-putchar('\n');
-return (0);
-}
+	for 
+		(c = '0' ; c <= '9' ; c++)
+		{
+			putchar(c);
 
+			if (c != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	putchar('\n');
+	return (0);
+}
