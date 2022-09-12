@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int v;
+	int cee;
 
-for (v = '0' ; v <= '9' ; v++)
+for (cee = '0' ; cee <= '9' ; cee++)
 {
-	putchar(v);
-if (v != '9')
+	putchar(cee);
+if (cee != '9')
 {
 	 putchar(',');
 	 putchar(' ');
