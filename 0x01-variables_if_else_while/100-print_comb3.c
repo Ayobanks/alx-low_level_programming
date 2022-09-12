@@ -27,7 +27,7 @@ while (c <= 99)
 		}
 	}
 	c++;
-}		
+}
 putchar('\n');
 return (0);
 }
