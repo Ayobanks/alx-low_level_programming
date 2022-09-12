@@ -10,7 +10,7 @@ int main(void)
 int f_d;
 int l_d;
 
-while (c<= 99)
+while (c <= 99)
 {
 	f_d = (c / 10 + '0');
 	l_d = (c % 10 + '0');
@@ -27,7 +27,7 @@ while (c<= 99)
 		}
 	}
 	c++;
-}			
+}		
 putchar('\n');
 return (0);
 }
