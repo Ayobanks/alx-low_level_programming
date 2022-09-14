@@ -1,7 +1,7 @@
-nclude "main.h"
+#include "main.h"
 /** 
  * main - prints putchar
- * Return:0)
+ * Return:0
  */
 int main(void)
 {
@@ -16,12 +16,4 @@ _putchar("p");
 	_putchar("\n");
 
 	return (0);
-}
-
-
-
-
-
-
-
 }
