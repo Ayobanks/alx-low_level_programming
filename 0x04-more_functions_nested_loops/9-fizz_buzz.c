@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *main - program thar prints either number
@@ -7,6 +8,7 @@
  *
  *Return: returns 0
  */
+
 int main(void)
 {
 int i;
