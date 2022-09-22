@@ -18,7 +18,7 @@ return (len);
 
 /**
  *cap_string - function that capitalizes all words of a string.
- *@str: stringto capitalize
+ *@str: string to capitalize
  *Return: returns the capitalized string
  */
 
@@ -26,6 +26,8 @@ char *cap_string(char *str)
 {
 int index = 0;
 
+while (str[++index])
+{
 while (!(str[index] >= 'a') && (str[index] <= 'z'))
 index++;
 
