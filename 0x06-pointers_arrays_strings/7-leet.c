@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * leet - leet encoder
- * @str: string to be encoded
+ *leet - leet encoder
+ *@str: string to be encoded
  *
- * Return: address of the encoded string
+ *Return: address of the encoded string
  */
 
 char *leet(char *str)
@@ -20,10 +20,10 @@ return (str);
 }
 
 /**
- * transform - helper function to map a letter with it's leet encoding
- * @x: char to be encoded
+ *transform - helper function to map a letter with it's leet encoding
+ *@x: char to be encoded
  *
- * Return: the encoded char
+ *Return: the encoded char
  */
 
 char transform(char x)
@@ -42,5 +42,6 @@ break;
 }
 i++;
 }
+
 return (replacement);
 }
