@@ -3,12 +3,12 @@
 
 /**
  *leet - leet encoder
- *@str: string to be encoded
+ *@s: string to be encoded
  *
  *Return: address of the encoded string
  */
 
-char *leet(char *str)
+char *leet(char *s)
 {
 int i, j;
 
