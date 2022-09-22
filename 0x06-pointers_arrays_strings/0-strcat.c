@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *_strcat - concatenates two the string pointed to by @src to
@@ -12,13 +13,19 @@
 char *_strcat(char *dest, char *src)
 {
 
-int index = 0, dest_len = 0;
+int dlen = 0, i;
 
-while (dest[index++])
-dest_len++;
+while (dest[dlen])
+{
+dlen++;
+}
 
-for (index = 0; src[index]; index++)
-dest[dest_len++] = src[index];
+for (i = 0; src[i] != 0; i++)
+{
+dest[dlen] = src[i];
+dlen++;
+}
 
+dest[dlen] = '\0';
 return (dest);
 }
