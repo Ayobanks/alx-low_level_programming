@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - calculates the length of a string
- * @s: string to be used
+ * factorial - returns the factorial of a given number
+ * @n: number to be used
  *
- * Return: length of the string
+ * Return: the factorial of the number
  */
 int factorial(int n)
 {
