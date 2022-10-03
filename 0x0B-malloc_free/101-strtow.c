@@ -30,7 +30,7 @@ int num_words(char *str)
 
 	while (i <= len(str))
 	{
-		if ((str[i] != ' ') && (str[i] != '\0))
+		if ((str[i] != ' ') && (str[i] != '\0'))
 		{
 			i++;
 		}
