@@ -19,15 +19,15 @@ for (j = 0; argv[i][j]; j++)
 {
 if (isdigit(argv[i][j]) == 0)
 {
-			puts("Error");
+puts("Error");
 
-			return (1);
-		}
-	}
+return (1);
+}
+}
 }
 for (i = 1; i < argc; i++)
 {
-	a += atoi(argv[i]);
+a += atoi(argv[i]);
 }
 printf("%d\n", a);
 return (0);
