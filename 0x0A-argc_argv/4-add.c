@@ -6,7 +6,7 @@
  * main - adds positive numbers.
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to string
- * Return: 0 if noerrors, else 1
+ * Return: 0 if no errors, else 1
  */
 
 int main(int argc, char *argv[])
