@@ -5,7 +5,7 @@
  * main - adds positive numbers.
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to string
- * Return: always 0
+ * Return: 0 if noerrors, else 1
  */
 int main(int argc, char *argv[])
 {
@@ -18,6 +18,7 @@ for (j = 0; argv[1][j]; j++)
 if (isdigit(argv[i][j]) == 0)
 {
 puts("Error");
+
 return (1);
 }
 }
